@@ -1,0 +1,6 @@
+Y=int(input("Enter Year of Birth\n"))
+CY=int(input("Enter Current year\n"))
+if BY>CY:
+    print(f'Your age is',((100-BY)+CY))
+else:
+    print(f'Your age is',(CY-BY))
